@@ -84,6 +84,13 @@ color:rgb(233, 230, 230);
         justify-content: space-around;
     }
 
+    .nav-collapse-menu {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding-top: 70px;
+    }
+
     .vt-nav {
         display: flex;
         flex-direction: column; 
