@@ -4,6 +4,9 @@ body {
 
 .main-nav {
     height: 68px;
+    /*display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;*/
 }
 
 .email-list {
@@ -16,11 +19,18 @@ body {
 
 .bottom-nav {
     height: 68px;
+    display: grid;
+    align-content: center;
 }
 
 .navbar-brand {
     display: flex;
     justify-content: start;
+}
+
+.nav-collapse-menu {
+    display: flex;
+    justify-content: center;
 }
 
 .navbar {
@@ -49,7 +59,13 @@ body {
 
 /* MEDIUM devices (tablets, 768px and UP)*/
 @media (min-width: 768px) {
-    
+
+}
+/* Large and XL devices (laptops, 1200px and DOWN)*/
+@media (max-width: 1200px) {
+    .icons-main-menu {
+        display: none;
+    }
 }
 
 /* Large and XL devices (laptops, 1200px and UP)*/
@@ -60,12 +76,20 @@ body {
     .bottom-nav {
         display: none;
     }
+
+    .icons-main-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
     .vt-nav {
         display: flex;
         flex-direction: column; 
         flex-wrap: wrap;
         height: 64.2vh;
     }
+
     ul {
         display: flex;
         flex-wrap: wrap;
