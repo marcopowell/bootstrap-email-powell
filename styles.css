@@ -1,12 +1,5 @@
-body {
-
-}
-
 .main-nav {
     height: 68px;
-    /*display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;*/
 }
 
 .email-list {
@@ -39,8 +32,16 @@ body {
 }
 
 #icon-active {
-    color: rgb(236, 234, 190);
+    color: rgb(238, 235, 174);
     font-size: 1.5em;
+}
+
+.link {
+color:rgb(233, 230, 230);
+}
+
+.link:hover {
+    color: rgb(238, 235, 174);
 }
 
 /********** BREAKPOINTS **********/
@@ -87,7 +88,7 @@ body {
         display: flex;
         flex-direction: column; 
         flex-wrap: wrap;
-        height: 64.2vh;
+        height: 63.4vh;
     }
 
     ul {

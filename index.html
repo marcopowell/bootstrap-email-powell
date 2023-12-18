@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="styles.css">
     <title>Bootstarp Grid Email</title>
 </head>
-<body class="d-flex flex-column align-items-center justify-content-center" style="height: 100vh;">
+<body class="d-flex flex-column align-items-center justify-content-center" style="height: 100vh; background-color: rgb(213, 214, 241);">
     
 
     <!----------------------- Email UI container ------------------------->
     
-        <div class="container">
+        <div class="container" style="background-color: rgb(255, 255, 255);">
             <div class="row">
 
                 <!----------------------- Main Nav Section  ------------------------->
 
-                <div class="col-12 col-xl-2 main-nav border d-flex flex-column flex-wrap">
-                    <nav class="navbar navbar-expand-md bg-transparent navbar-dark">
+                <div class="col-12 col-xl-2 main-nav border d-flex flex-column flex-wrap" style="background-color: rgb(44, 49, 135);"">
+                    <nav class="navbar navbar-expand-md bg-transparent navbar-light">
                         <div class="container-fluid vt-nav rounded" style="background-color: rgb(44, 49, 135); color: rgb(255, 255, 255);">
                             <a class="navbar-brand d-flex justify-content-start" href="#"><img src="images/Gmail-Logo.wine.svg" style="width:60px; margin-bottom: 0px;" alt="GmailLogo "></a>
                             <h5 class="pt-2">Hi, Marco!</h5>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" style="background-color:rgb(0, 0, 0);">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" style="background-color: rgb(107, 111, 183);">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse nav-collapse-menu" id="collapsibleNavbar">    
@@ -62,6 +62,10 @@
                 <!----------------------- Email List Section  ------------------------->
 
                 <div class="col-12 col-md-5 col-xl-4 email-list border" style="height: 65vh;">
+                    <form class="form-inline d-flex justify-content-between pt-2">
+                        <input class="form-control" style="width: 80%;" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" style="border: 1px solid; color: rgb(255, 255, 255); background-color: rgb(44, 49, 135);" type="submit">Search</button>
+                      </form>
                     <div class="card d-flex mt-2" style="width: 100%;">
                         <div class="card-body email-preview-card bg-body-secondary">
                             <div class="d-flex justify-content-between align-items-end">
@@ -120,6 +124,7 @@
                             <p class="card-text">Nunc congue magna at orci vestibulum bibendum. Praesent metus tellus, porta id luctus eget, commodo commodo massa...</p>
                         </div>
                     </div>
+                    <p class="text-center pt-2" style="font-size: 12px; color: rgb(135, 135, 135);">Terms of Service</p>
                 </div>
 
                 <!----------------------- Opened Email Section  ------------------------->
@@ -169,7 +174,7 @@
 
                 <!----------------------- Bottom Nav Section  ------------------------->
 
-                <div class="col-12 bottom-nav border">
+                <div class="col-12 bottom-nav border"style="background-color: rgb(44, 49, 135);">
                     <div class="rounded rounded-top-3 d-flex flex-row justify-content-around align-items-center"  style="height:50px; background-color: rgb(44, 49, 135);">                    
                         <div class="icons-menu">
                                 <i class="fa-solid fa-house" id="icon-active"></i>
