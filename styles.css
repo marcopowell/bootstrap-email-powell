@@ -3,7 +3,7 @@ body {
 }
 
 .main-nav {
-    height: 80px;
+    height: 68px;
 }
 
 .email-list {
@@ -15,7 +15,22 @@ body {
 }
 
 .bottom-nav {
-    height: 80px;
+    height: 68px;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: start;
+}
+
+.navbar {
+    z-index: 5000;
+    position: relative;
+}
+
+#icon-active {
+    color: rgb(236, 234, 190);
+    font-size: 1.5em;
 }
 
 /********** BREAKPOINTS **********/
@@ -44,5 +59,18 @@ body {
     }
     .bottom-nav {
         display: none;
+    }
+    .vt-nav {
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+        height: 64.2vh;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    li {
+        width: 100%;
     }
 }
