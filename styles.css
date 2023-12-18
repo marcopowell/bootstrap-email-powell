@@ -7,5 +7,42 @@ body {
 }
 
 .email-list {
-    height: 600px;
+    overflow-y: scroll;
+}
+
+.opened-email {
+    overflow-y: scroll;
+}
+
+.bottom-nav {
+    height: 80px;
+}
+
+/********** BREAKPOINTS **********/
+
+/* SMALL devices (phones, 576px and DOWN)*/
+@media (max-width: 576px) {
+    
+}
+
+/* MEDIUM devices (tablets, 768px and DOWN)*/
+@media (max-width: 768px) {
+    .opened-email {
+        display: none;
+    }
+}
+
+/* MEDIUM devices (tablets, 768px and UP)*/
+@media (min-width: 768px) {
+    
+}
+
+/* Large and XL devices (laptops, 1200px and UP)*/
+@media (min-width: 1200px) {
+    .main-nav {
+        height: 65vh;
+    }
+    .bottom-nav {
+        display: none;
+    }
 }
